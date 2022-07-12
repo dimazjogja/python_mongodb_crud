@@ -1,9 +1,13 @@
-##What is MongoDB?
+#CRUD operations in MongoDB using Python.
+Ref: https://medium.com/analytics-vidhya/crud-operations-in-mongodb-using-python-49b7850d627e
 
-MongoDB is a document-oriented NoSQL database. It's one of the widely used databases in the industry due to its flexibility and ease of use. The architecture of MongoDB consists of collections and documents. MongoDB stores the data in JSON document format that is, it stores data in key-value pair. A group of JSON documents can be termed as a collection. Unlike SQL tables MongoDB documents do not have any fixed schema. With the use of dynamic schema, we can easily make changes to the application without any interruptions.
+1. Installing mongodb
+Reference: 
+https://medium.com/@LondonAppBrewery/how-to-download-install-mongodb-on-windows-4ee4b3493514
+https://www.c-sharpcorner.com/article/how-to-set-up-and-starts-with-mongodb/#:~:text=Click%20on%20Advanced%20system%20settings,of%20the%20MongoD%20files%20installed.
 
-How to perform CRUD operations in MongoDB using Python.
+2. Activate virtual environment
+3. Install library pymongo
 
-To connect with the MongoDB server using python we need to install a python driver named pymongo. It contains tools that are used to interact with MongoDB using python.
-
-To install pymongo we need to type the below command in the command prompt.
+4. CRUD operation
+https://iq.opengenus.org/mongodb-crud-operations-with-python/
